@@ -1,3 +1,4 @@
+
 # BitWork
 
 **The opportunity marketplace built on Bitcoin.**
@@ -13,7 +14,7 @@ Right now, if a DAO on Stacks needs a smart contract audited, a landing page bui
 
 That is not a system. That is organised chaos.
 
-BitWork replaces all of it with one platform. Post work. Lock the payment in a smart contract. Let contributors deliver. Get paid automatically — streamed block by block in sBTC via StackStream.
+BitWork replaces all of it with one platform. Post work. Lock the payment in a smart contract. Let contributors deliver. Get paid automatically — in sBTC, USDCx, or STX via StackStream.
 
 No middlemen. No trust required. No chasing invoices.
 
@@ -38,22 +39,22 @@ No middlemen. No trust required. No chasing invoices.
 
 | Type | What it is | How it pays |
 |---|---|---|
-| **Bounty** | Fixed reward, open to all — best or first submission wins | Streamed via StackStream on approval |
-| **Project** | Applied gig work — one assignee, scoped deliverable | Streamed via StackStream on completion |
-| **Grant** | Milestone-based funding — money unlocks as work is delivered | Released per milestone via StackStream |
-| **Hackathon** | Time-boxed competition — prize pool split across winners | Distributed automatically by the smart contract |
+| **Bounty** | Fixed reward, open to all — best or first submission wins | Paid in sBTC, USDCx, or STX via StackStream on approval |
+| **Project** | Applied gig work — one assignee, scoped deliverable | Paid in sBTC, USDCx, or STX via StackStream on completion |
+| **Grant** | Milestone-based funding — money unlocks as work is delivered | Released per milestone in sBTC, USDCx, or STX via StackStream |
+| **Hackathon** | Time-boxed competition — prize pool split across winners | Distributed automatically in sBTC, USDCx, or STX by the smart contract |
 
 ---
 
 ## How It Works
 
-1. **Post a quest** — fill in the scope, reward, and deadline. The payment is locked in a smart contract the moment you post. It cannot disappear.
+1. **Post a quest** — fill in the scope, reward, deadline, and choose your payment token — sBTC, USDCx, or STX. The payment is locked in a smart contract the moment you post. It cannot disappear.
 
 2. **Contributors apply or claim** — builders browse open quests, claim bounties, or apply for projects. The on-chain agreement is created instantly.
 
 3. **Work gets done** — the contributor submits a delivery link, commit hash, or live URL. Everything is recorded on-chain.
 
-4. **Approve and stream** — the poster reviews and approves. BitWork triggers StackStream, and payment starts flowing block by block into the contributor's wallet.
+4. **Approve and stream** — the poster reviews and approves. BitWork triggers StackStream, and payment starts flowing block by block into the contributor's wallet in their chosen token.
 
 That is it. No multi-sig coordination. No Discord arguments. No waiting.
 
@@ -61,7 +62,7 @@ That is it. No multi-sig coordination. No Discord arguments. No waiting.
 
 ## Why Stacks. Why Now.
 
-Stacks is a Bitcoin Layer 2 — programmable, fast, and settled on the most secure blockchain in the world. sBTC is real Bitcoin that lives and moves on Stacks.
+Stacks is a Bitcoin Layer 2 — programmable, fast, and settled on the most secure blockchain in the world. sBTC is real Bitcoin that lives and moves on Stacks. USDCx brings dollar-stable payments for teams that need predictable budgets. STX powers the network and gives every transaction a native home.
 
 Until now, there has been no structured way for the Stacks ecosystem to coordinate work, fund builders, or run grant programmes on-chain. Gitcoin did it for Ethereum. Superteam Earn did it for Solana. Those ecosystems are thriving.
 
@@ -74,9 +75,10 @@ The Stacks ecosystem has active DAOs, funded protocols, a growing developer comm
 ## Built On
 
 - **Stacks** — Bitcoin Layer 2 smart contracts in Clarity
-- **sBTC** — Bitcoin-native payments
-- **StackStream** — payment streaming protocol (every payout on BitWork is a StackStream stream)
-- **USDA** — stablecoin support for fixed-value grants and bounties
+- **sBTC** — Bitcoin-native payments for contributors who want to earn in Bitcoin
+- **USDCx** — Dollar-stable payments for fixed-value bounties, grants, and hackathon prizes
+- **STX** — Native Stacks token accepted across all quest types
+- **StackStream** — Payment streaming protocol powering every disbursement on BitWork
 
 ---
 
@@ -86,9 +88,9 @@ A developer in Lagos should be able to wake up, find a bounty on BitWork, comple
 
 No bank account. No PayPal. No waiting for a DAO admin to wake up and sign a multi-sig transaction. No 30-day invoice cycle.
 
-Just work, delivered. Bitcoin, earned.
+Choose sBTC if you want Bitcoin. Choose USDCx if you want stability. Choose STX if you want to stay native. BitWork handles the rest.
 
-That is what we are building.
+Just work, delivered. Value, earned.
 
 ---
 
